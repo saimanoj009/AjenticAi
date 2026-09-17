@@ -5,6 +5,8 @@ description = "Agentic AI Project"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "fastapi",
+    "uvicorn",
     "python-dotenv",
     "google-genai",
     "groq",
